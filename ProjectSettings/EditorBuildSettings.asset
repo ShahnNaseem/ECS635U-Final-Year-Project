@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 83d5f47eca1ab1a4ea7323436c8955f5
+  - enabled: 1
+    path: Assets/Scenes/L1statue.unity
+    guid: ce4ab570b3f71e442a7ec46ecac36ea2
+  - enabled: 1
+    path: Assets/Scenes/L2vasser.unity
+    guid: a0decb97e3f89354c83b045825f2e2bd
+  - enabled: 1
+    path: Assets/Scenes/L3map.unity
+    guid: aa9aced86ac65a4419503f5fa10b3041
+  - enabled: 1
+    path: Assets/Scenes/L4maths.unity
+    guid: aeacc4950a9bda840bb2f5f257d4894d
+  - enabled: 1
+    path: Assets/Scenes/L5square.unity
+    guid: f89a8e88a2869494c9852bdbd02a36b0
+  m_configObjects:
+    Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: 1e0b0b20b5a10e344aafef8d0b9808f6, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 202a1c9141b7a554ea77d49f1273acdc, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: b5d19288c4888d94085c5c3cdb1246f5, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5adf6788806ab4d4b9271ec014d3d00c, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e89d0243acd647342a88ec9da462a121, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9f6bf3dc0443b17458004835cf4febe5, type: 2}

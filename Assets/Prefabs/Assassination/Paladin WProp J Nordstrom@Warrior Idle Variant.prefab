@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5105799140277929739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -47.704
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -10.218
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.289
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5428036
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8398597
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 114.251
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_Name
+      value: Paladin WProp J Nordstrom@Warrior Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_TagString
+      value: TargetNPC
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0d52f4b62d2f51b46a921ff5129db79c, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+--- !u!1 &5339607340034292314 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a3aee95a3dc327c4987901633b6af8c0, type: 3}
+  m_PrefabInstance: {fileID: 5105799140277929739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1042144876
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339607340034292314}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &1042144875
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339607340034292314}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1042144874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5339607340034292314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e7dbd7fce949d4e9e87d37dd4d091c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
